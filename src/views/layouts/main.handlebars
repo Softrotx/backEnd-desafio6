@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+
+    {{#each styles}}
+    <link rel="stylesheet" href="/css/{{this}}">
+    {{/each}}
+</head>
+
+<body>
+    {{{body}}}
+
+    {{!-- CHAT EN TIEMPO REAL --}}
+    {{!-- <div class="card">
+        <div class="chat-header">Chat</div>
+        <div class="chat-window" id="chat-window">
+             <ul id="message-list" class="message-list"></ul> 
+        </div>
+        <div class="chat-input">
+            <input id="inputMsg" type="text" class="message-input" placeholder="Type your message here" name="message">
+            <button id="btnSend" class="send-button">Enviar</button>
+        </div>
+    </div> --}}
+
+    {{!-- incluir librería sweetalert si es necesario --}}
+    {{#if useSweetAlert }}
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    {{/if}}
+
+    {{!-- incluir Socket.io si es necesario --}}
+    {{#if useWS }}
+    <script src="/socket.io/socket.io.js"></script>
+    {{/if}}
+
+    {{!-- incluir scripts de esa vista en particular --}}
+    {{#each scripts}}
+    <script src="/js/{{this}}"></script>
+    {{/each}}
+
+
+
+
+</body>
+
+</html>

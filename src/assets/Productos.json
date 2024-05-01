@@ -1,0 +1,100 @@
+[
+	{
+		"id": 619,
+		"title": "producto de prueba0100",
+		"description": "descripcion del producto",
+		"code": "4444",
+		"price": 30000,
+		"status": true,
+		"stock": "23",
+		"category": "food"
+	},
+	{
+		"id": 144,
+		"title": "producto de prueba0100",
+		"description": "descripcion del producto",
+		"code": "333",
+		"price": 30000,
+		"status": true,
+		"stock": "23",
+		"category": "food"
+	},
+	{
+		"id": 884,
+		"title": "producto de prueba0100",
+		"description": "descripcion del producto",
+		"code": "234",
+		"price": 30000,
+		"status": true,
+		"stock": "23",
+		"category": "food"
+	},
+	{
+		"id": 485,
+		"title": "producto de prueba0100",
+		"description": "descripcion del producto",
+		"code": "2345",
+		"price": 30000,
+		"status": true,
+		"stock": "23",
+		"category": "food",
+		"thumbnails": "[http://123.com/123]"
+	},
+	{
+		"id": 585,
+		"title": "producto de prueba0100",
+		"description": "descripcion del producto",
+		"code": "23455",
+		"price": 30000,
+		"status": true,
+		"stock": "23",
+		"category": "food",
+		"thumbnails": "[http://123.com/123]"
+	},
+	{
+		"id": 492,
+		"title": "producto de prueba0100",
+		"description": "descripcion del producto",
+		"code": "234565",
+		"price": 30000,
+		"status": true,
+		"stock": "23",
+		"category": "food",
+		"thumbnails": "[http://123.com/123]"
+	},
+	{
+		"id": 401,
+		"title": "producto de prueba0100",
+		"description": "descripcion del producto",
+		"code": "2345657",
+		"price": 30000,
+		"status": true,
+		"stock": "23",
+		"category": "food",
+		"thumbnails": "[http://123.com/123]"
+	},
+	{
+		"id": 592,
+		"title": "producto 9999",
+		"description": "descripcion del producto",
+		"price": 30000,
+		"code": "2354435455",
+		"stock": "23"
+	},
+	{
+		"id": 168,
+		"title": "producto 9999",
+		"description": "descripcion del producto",
+		"price": 30000,
+		"code": "545dddd45",
+		"stock": "23"
+	},
+	{
+		"id": 254,
+		"title": "producto 9999",
+		"description": "descripcion del producto",
+		"price": 30000,
+		"code": "353535",
+		"stock": "23"
+	}
+]
